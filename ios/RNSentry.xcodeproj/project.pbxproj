@@ -16,7 +16,7 @@
 		F05A8C0820FDFE40003231DD /* RNSentryEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378C6FA1EAF630500A1F1EE /* RNSentryEventEmitter.m */; };
 		F05A8C0B20FDFE40003231DD /* libSentryStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6387B8561ED8520D0045A84C /* libSentryStatic.a */; };
 		F05A8C0D20FDFE40003231DD /* RNSentry.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = B3E7B5881CC2AC0600A0062D /* RNSentry.h */; };
-		F05D76E52101E2CE00968B97 /* libKSCrashLib-TVOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05D76E12101E2C400968B97 /* libKSCrashLib-TVOS.a */; };
+		F05D78CB2102093400968B97 /* libKSCrashLib-TVOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05D76E12101E2C400968B97 /* libKSCrashLib-TVOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,18 +104,18 @@
 			remoteGlobalIDString = 6387B7C11ED84F910045A84C;
 			remoteInfo = SentryStatic;
 		};
-		F05D76D82101E2C400968B97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F05A894320FDE802003231DD /* KSCrash-TVOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F05D76C52101DF7000968B97;
-			remoteInfo = "KSCrashLib-TVOS";
-		};
 		F05D76E02101E2C400968B97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F05A894320FDE802003231DD /* KSCrash-TVOS.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F05D76C62101DF7000968B97;
+			remoteInfo = "KSCrashLib-TVOS";
+		};
+		F05D78C92102092B00968B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F05A894320FDE802003231DD /* KSCrash-TVOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F05D76C52101DF7000968B97;
 			remoteInfo = "KSCrashLib-TVOS";
 		};
 /* End PBXContainerItemProxy section */
@@ -172,7 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F05D76E52101E2CE00968B97 /* libKSCrashLib-TVOS.a in Frameworks */,
+				F05D78CB2102093400968B97 /* libKSCrashLib-TVOS.a in Frameworks */,
 				F05A8C0B20FDFE40003231DD /* libSentryStatic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +284,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F05D76D92101E2C400968B97 /* PBXTargetDependency */,
+				F05D78CA2102092B00968B97 /* PBXTargetDependency */,
 				F05A8C0420FDFE40003231DD /* PBXTargetDependency */,
 			);
 			name = "RNSentry-tvOS";
@@ -448,10 +448,10 @@
 			name = SentryStatic;
 			targetProxy = F05A8C0520FDFE40003231DD /* PBXContainerItemProxy */;
 		};
-		F05D76D92101E2C400968B97 /* PBXTargetDependency */ = {
+		F05D78CA2102092B00968B97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "KSCrashLib-TVOS";
-			targetProxy = F05D76D82101E2C400968B97 /* PBXContainerItemProxy */;
+			targetProxy = F05D78C92102092B00968B97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
