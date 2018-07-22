@@ -16,7 +16,7 @@
 		F05A8C0820FDFE40003231DD /* RNSentryEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378C6FA1EAF630500A1F1EE /* RNSentryEventEmitter.m */; };
 		F05A8C0B20FDFE40003231DD /* libSentryStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6387B8561ED8520D0045A84C /* libSentryStatic.a */; };
 		F05A8C0D20FDFE40003231DD /* RNSentry.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = B3E7B5881CC2AC0600A0062D /* RNSentry.h */; };
-		F05D78CB2102093400968B97 /* libKSCrashLib-TVOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05D76E12101E2C400968B97 /* libKSCrashLib-TVOS.a */; };
+		F0E8C9FD210512E600351DA8 /* libKSCrashLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05D76E12101E2C400968B97 /* libKSCrashLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,7 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F05D78CB2102093400968B97 /* libKSCrashLib-TVOS.a in Frameworks */,
+				F0E8C9FD210512E600351DA8 /* libKSCrashLib.a in Frameworks */,
 				F05A8C0B20FDFE40003231DD /* libSentryStatic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +246,7 @@
 			children = (
 				F05A894C20FDE802003231DD /* KSCrash.framework */,
 				F05A894E20FDE802003231DD /* KSCrashTests.xctest */,
-				F05D76E12101E2C400968B97 /* libKSCrashLib-TVOS.a */,
+				F05D76E12101E2C400968B97 /* libKSCrashLib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -402,10 +402,10 @@
 			remoteRef = F05A894D20FDE802003231DD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		F05D76E12101E2C400968B97 /* libKSCrashLib-TVOS.a */ = {
+		F05D76E12101E2C400968B97 /* libKSCrashLib.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libKSCrashLib-TVOS.a";
+			path = libKSCrashLib.a;
 			remoteRef = F05D76E02101E2C400968B97 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
